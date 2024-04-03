@@ -1,0 +1,12 @@
+		(1)	(2)
+VARIABLES	LABELS	No son	At least one son
+			
+TA_had_no_right_post_7	TA_had_no_right_post_7	-0.124***	-0.094*
+		(0.030)	(0.054)
+Constant	Constant	0.866***	1.826***
+		(0.226)	(0.326)
+			
+Observations		3,137	2,263
+R-squared		0.079	0.080
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

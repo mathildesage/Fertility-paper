@@ -1,0 +1,29 @@
+		(1)	(2)
+VARIABLES	LABELS	No child at baseline	At least one child
+			
+DOT_1	treatment period 1	0.307**	0.065
+		(0.124)	(0.063)
+DOT_2	treatment period 2	0.257**	0.041
+		(0.107)	(0.070)
+number_children_bl	How many children do you have?		0.842***
+			(0.035)
+married_couple	Married/consensual union	0.317**	0.242***
+		(0.138)	(0.088)
+education_level_bl	What is the highest level of school that you completed?	0.021	-0.003
+		(0.018)	(0.010)
+Age_bl	Age at baseline	0.122*	-0.106**
+		(0.065)	(0.048)
+Age_bl_square	Age square	-0.002*	0.002**
+		(0.001)	(0.001)
+head_hh	Women is head of household	-0.064	-0.065
+		(0.102)	(0.086)
+bl_pi6	How many people live in your household?	-0.062***	-0.005
+		(0.020)	(0.021)
+Constant	Constant	-1.245	2.021**
+		(0.790)	(0.824)
+			
+Observations		279	1,102
+R-squared		0.185	0.744
+Control group mean -follow-up 1		2.326	2.326
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
